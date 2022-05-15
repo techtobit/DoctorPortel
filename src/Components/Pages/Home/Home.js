@@ -1,9 +1,18 @@
 import React from 'react';
+import Appointment from './Appointment';
+import HeroBanner from './HeroBanner';
+
+import Info from './Info/Info';
+import Services from './Services/Services';
+import Treatment from './Treatment';
 
 const Home = () => {
  return (
-  <div className='text-5xl font-bold text-center'>
-   This is home
+  <div className='px-10'>
+   <HeroBanner></HeroBanner>
+   <Info></Info>
+   <Services></Services>
+   <Appointment></Appointment>
   </div>
  );
 };

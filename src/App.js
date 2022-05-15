@@ -8,6 +8,7 @@ import About from './Components/Pages/About/About';
 import Appointment from './Components/Pages/Appointment/Appointment';
 import Reviews from './Components/Pages/Reviews/Reviews';
 import ContactUs from './Components/Pages/ContactUs/ContactUs';
+import RequireAuth from './Components/Auth/RequireAuth/RequireAuth';
 
 function App() {
   return (
@@ -16,8 +17,12 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/Appointment' element={
+          <RequireAuth>
+            <Appointment></Appointment>
+          </RequireAuth>
+        }></Route>
         <Route path='/About' element={<About></About>}></Route>
-        <Route path='/Appointment' element={<Appointment></Appointment>}></Route>
         <Route path='/Reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/Contact' element={<ContactUs></ContactUs>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
