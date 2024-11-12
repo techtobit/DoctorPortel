@@ -1,9 +1,9 @@
 import React from 'react';
 
 const DoAppointment = ({ service, setTreatment }) => {
-  const { _id, name, slots } = service
+  const {  name, slots } = service
   return (
-    <div className="card w-96 bg-base-100 shadow-xl grid justify-center text-center">
+    <div className="card glass w-96 shadow-xl grid justify-center text-center">
       <div className="card-body">
         <h2 className="card-title justify-center">{name}</h2>
         <p>

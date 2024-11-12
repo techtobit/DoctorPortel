@@ -13,7 +13,7 @@ const HeroBanner = () => {
    <div className="hero-overlay bg-opacity-0"></div>
 
    <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src={heroBanner} className="max-w-sm rounded-lg shadow-2xl" />
+    <img src={heroBanner} className="max-w-sm rounded-lg shadow-2xl" alt='heroBanner'/>
     <div className="hero min-h-screen w-50">
      <div className="">
       <h1 className="mb-5 text-5xl font-bold">Your New Smile Starts Here</h1>

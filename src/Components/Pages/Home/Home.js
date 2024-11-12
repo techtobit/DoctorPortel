@@ -4,7 +4,6 @@ import HeroBanner from './HeroBanner';
 
 import Info from './Info/Info';
 import Services from './Services/Services';
-import Treatment from './Treatment';
 
 const Home = () => {
  return (

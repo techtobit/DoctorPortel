@@ -1,10 +1,10 @@
 import React from 'react';
-import treatment from '../../../assets/images/treatment.png'
+import treatments from '../../../assets/images/treatment.png'
 
 const Treatment = () => {
  return (
   <div className="card lg:card-side w-7/12  bg-base-100 shadow-xl grid grid-cols-2">
-   <figure><img className='w-80' src={treatment} alt="Album" /></figure>
+   <figure><img className='w-80' src={treatments} alt="Album" /></figure>
    <div className="grid content-center">
     <h2 className="">New album is released!</h2>
     <p>Click the button to listen on Spotiwhy app.</p>
